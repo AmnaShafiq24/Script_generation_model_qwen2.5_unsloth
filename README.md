@@ -1,4 +1,4 @@
-# Tone-Controlled Script Writer (LoRA Adapter)
+# Tone-Controlled Script generation model (LoRA Adapter)
 
 A LoRA adapter fine-tuned on **Qwen2.5-7B-Instruct** that generates short video scripts in a **user-selected tone**. Trained with [Unsloth](https://github.com/unslothai/unsloth) QLoRA on a Colab T4 GPU.
 
