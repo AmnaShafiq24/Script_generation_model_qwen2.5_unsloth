@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+*.egg-info/
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Training artifacts (not the final adapter you explicitly add)
+outputs/
+checkpoint-*/
+runs/
+wandb/
+
+# Environment / secrets
+.env
+*.token
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large raw dataset (optional — remove this line if you want train.jsonl versioned)
+train.jsonl
